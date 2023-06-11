@@ -99,7 +99,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 267.0, 50.0, 35.0 ],
+					"patching_rect" : [ 13.0, 267.0, 50.0, 36.0 ],
 					"text" : "cameronjxyz"
 				}
 
@@ -161,7 +161,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1400.0, 108.0, 101.0, 35.0 ],
+					"patching_rect" : [ 1400.0, 108.0, 101.0, 36.0 ],
 					"text" : "title \"Twitch Chat Youtube Player\""
 				}
 
@@ -305,8 +305,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 39.25, 180.0, 100.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 94.0, 96.0, 143.0, 28.0 ],
-					"text" : "cameronjxyz"
+					"presentation_rect" : [ 94.0, 96.0, 143.0, 28.0 ]
 				}
 
 			}
@@ -405,7 +404,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
-					"patching_rect" : [ 1087.0, 489.0, 424.0, 35.0 ],
+					"patching_rect" : [ 1087.0, 489.0, 424.0, 36.0 ],
 					"text" : "jit.world @dim 1920 1080 @size 960 540 @enable 1 @erase_color 0. 0. 0. 1. @visible 0 @name Video"
 				}
 
@@ -1858,7 +1857,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 167.0, 105.0, 157.0, 33.0 ],
+					"patching_rect" : [ 167.0, 105.0, 157.0, 34.0 ],
 					"text" : "Click to connect/disconnect to chat"
 				}
 
@@ -2742,8 +2741,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
@@ -4015,98 +4012,98 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "chat.js",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/code/node_content",
+				"bootpath" : "~/OneDrive/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/code/node_content",
 				"patcherrelativepath" : "../code/node_content",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ff.png",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
+				"bootpath" : "~/OneDrive/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ffdark.png",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
+				"bootpath" : "~/OneDrive/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/code",
+				"bootpath" : "~/OneDrive/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "isDarkMode_me.maxpat",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/patchers",
+				"bootpath" : "~/OneDrive/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "n4m.monitor.maxpat",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/patchers",
+				"bootpath" : "~/OneDrive/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pause.png",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
+				"bootpath" : "~/OneDrive/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pauseDark.png",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
+				"bootpath" : "~/OneDrive/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.png",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
+				"bootpath" : "~/OneDrive/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playDark.png",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
+				"bootpath" : "~/OneDrive/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/code",
+				"bootpath" : "~/OneDrive/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rewind.png",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
+				"bootpath" : "~/OneDrive/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rewindDark.png",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
+				"bootpath" : "~/OneDrive/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scripthiding_me.maxpat",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/patchers",
+				"bootpath" : "~/OneDrive/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
