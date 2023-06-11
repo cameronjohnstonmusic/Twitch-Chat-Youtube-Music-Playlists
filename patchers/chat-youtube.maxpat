@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2366.0, 243.0, 441.0, 632.0 ],
+		"rect" : [ 2089.0, 198.0, 441.0, 616.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,8 +38,98 @@
 		"style" : "",
 		"subpatcher_template" : "default_with_darkmode_template",
 		"assistshowspatchername" : 0,
-		"title" : "Atrioc Youtube Player",
+		"title" : "Twitch Chat Youtube Player",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-161",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 52.0, 108.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 100.0, 89.0, 20.0 ],
+					"text" : "Enter Channel:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-158",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 11.0, 156.0, 32.0, 22.0 ],
+					"text" : "t b b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-157",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 39.0, 124.0, 51.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 270.0, 96.0, 51.0, 20.0 ],
+					"text" : "connect"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-144",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 13.0, 124.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 244.0, 96.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-120",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 13.0, 267.0, 50.0, 35.0 ],
+					"text" : "cameronjxyz"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-86",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 28.25, 359.0, 51.0, 22.0 ],
+					"text" : "connect"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 229.0, 19.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 323.0, 68.25, 92.0, 20.0 ],
+					"text" : "Channel to Join"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-150",
 					"maxclass" : "message",
@@ -71,8 +161,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1400.0, 108.0, 94.0, 35.0 ],
-					"text" : "title \"Atrioc Youtube Player\""
+					"patching_rect" : [ 1400.0, 108.0, 101.0, 35.0 ],
+					"text" : "title \"Twitch Chat Youtube Player\""
 				}
 
 			}
@@ -83,7 +173,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1400.0, 151.0, 67.0, 22.0 ],
+					"patching_rect" : [ 1400.0, 163.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -200,7 +290,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 44.0, 280.0, 66.0, 22.0 ],
+					"patching_rect" : [ 44.0, 239.0, 66.0, 22.0 ],
 					"text" : "zl.filter text"
 				}
 
@@ -213,8 +303,10 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 44.0, 220.0, 100.0, 50.0 ],
-					"text" : "atrioc"
+					"patching_rect" : [ 39.25, 180.0, 100.0, 50.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 94.0, 96.0, 143.0, 28.0 ],
+					"text" : "cameronjxyz"
 				}
 
 			}
@@ -326,7 +418,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 684.0, 645.0, 50.0, 22.0 ],
-					"text" : "1668."
+					"text" : "4769."
 				}
 
 			}
@@ -338,7 +430,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 628.0, 645.0, 50.0, 22.0 ],
-					"text" : "1681."
+					"text" : "4783."
 				}
 
 			}
@@ -374,7 +466,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 550.5, 599.0, 50.0, 22.0 ],
-					"text" : "1681"
+					"text" : "4783"
 				}
 
 			}
@@ -737,7 +829,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 354.0, 124.0, 92.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 305.0, 96.0, 92.0, 20.0 ],
+					"presentation_rect" : [ 323.0, 96.0, 92.0, 20.0 ],
 					"text" : "Refresh Playlist"
 				}
 
@@ -752,7 +844,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 328.0, 124.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 399.0, 94.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 417.0, 94.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1109,7 +1201,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 179.0, 524.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 142.0, 151.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 139.0, 130.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1121,7 +1213,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 51.0, 524.0, 117.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 151.0, 117.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 130.0, 117.0, 20.0 ],
 					"text" : "Open Audio Outputs"
 				}
 
@@ -1170,7 +1262,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 402.0, 180.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 350.0, 123.0, 47.0, 20.0 ],
+					"presentation_rect" : [ 368.0, 129.0, 47.0, 20.0 ],
 					"text" : "Playlist"
 				}
 
@@ -1622,7 +1714,6 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
-					"hidden" : 1,
 					"id" : "obj-84",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -1658,7 +1749,6 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
-					"hidden" : 1,
 					"id" : "obj-80",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -1676,7 +1766,6 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
-					"hidden" : 1,
 					"id" : "obj-79",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -1694,6 +1783,7 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
+					"hidden" : 1,
 					"id" : "obj-78",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -1711,6 +1801,7 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
+					"hidden" : 1,
 					"id" : "obj-77",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -1746,6 +1837,7 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
+					"hidden" : 1,
 					"id" : "obj-75",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -1767,8 +1859,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 167.0, 105.0, 157.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 94.0, 195.0, 20.0 ],
 					"text" : "Click to connect/disconnect to chat"
 				}
 
@@ -1781,9 +1871,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 138.0, 105.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 213.0, 94.0, 24.0, 24.0 ]
+					"patching_rect" : [ 138.0, 105.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -2040,13 +2128,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-69",
-													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 355.0, 62.0 ],
-													"text" : "Dua Lipa - Dance The Night (Lyrics), Brooklyn / Youngblood Brass Band【SSDO】Solid State Drivin' Orchestra（神保町エスペリア Big Band LIVE）, Joji - Glimpse of Us"
+													"text" : "Joji - Glimpse of Us"
 												}
 
 											}
@@ -2346,7 +2433,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 528.5, 130.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 123.0, 335.0, 22.0 ]
+					"presentation_rect" : [ 172.0, 129.0, 192.0, 22.0 ]
 				}
 
 			}
@@ -2478,7 +2565,7 @@
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "number",
-					"maximum" : -1,
+					"maximum" : 0,
 					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -2568,7 +2655,7 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 365.5, 693.0, 186.5, 125.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 182.0, 397.0, 205.0 ],
+					"presentation_rect" : [ 14.0, 164.0, 397.0, 205.0 ],
 					"sync" : 1
 				}
 
@@ -2639,7 +2726,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 641.0, 340.0, 400.0, 220.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 395.0, 400.0, 220.0 ],
+					"presentation_rect" : [ 11.0, 377.0, 400.0, 220.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2855,7 +2942,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-121", 0 ],
+					"destination" : [ "obj-120", 1 ],
 					"source" : [ "obj-116", 0 ]
 				}
 
@@ -2871,6 +2958,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-121", 0 ],
+					"source" : [ "obj-120", 0 ]
 				}
 
 			}
@@ -3081,6 +3175,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"order" : 1,
+					"source" : [ "obj-144", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"order" : 0,
+					"source" : [ "obj-144", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-143", 0 ],
 					"source" : [ "obj-147", 0 ]
 				}
@@ -3113,6 +3223,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-150", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-120", 0 ],
+					"source" : [ "obj-158", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"source" : [ "obj-158", 1 ]
 				}
 
 			}
@@ -3804,6 +3928,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-86", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
 					"source" : [ "obj-87", 0 ]
 				}
@@ -3883,6 +4014,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "chat.js",
+				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/code/node_content",
+				"patcherrelativepath" : "../code/node_content",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ff.png",
 				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
 				"patcherrelativepath" : "../media",
@@ -3981,9 +4119,9 @@
  ],
 		"toolbaradditions" : [ "browsegendsp", "browsegenjit", "audiosolo", "audiomute" ],
 		"toolbarexclusions" : [ "browsevizzie", "browsebeap", "browsecollections", "grid", "midimap", "keymap" ],
-		"textcolor" : [ 0.129, 0.129, 0.129, 1.0 ],
-		"bgcolor" : [ 0.894117647058824, 0.894117647058824, 0.894117647058824, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"textcolor" : [ 0.945, 0.929, 0.929, 1.0 ],
+		"bgcolor" : [ 0.313725490196078, 0.301960784313725, 0.301960784313725, 1.0 ],
+		"editing_bgcolor" : [ 0.314, 0.302, 0.302, 1.0 ]
 	}
 
 }
