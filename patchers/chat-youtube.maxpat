@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1421.0, 420.0, 441.0, 632.0 ],
+		"rect" : [ 2366.0, 243.0, 441.0, 632.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"title" : "Atrioc Youtube Player",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-150",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 419.0, 28.0, 129.0, 22.0 ],
+					"text" : "script npm install tmi.js"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-148",
 					"maxclass" : "newobj",
@@ -146,8 +158,8 @@
 					"patching_rect" : [ 1059.0, 151.0, 322.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
-						"appicon_mac" : "ndi-fccla.icns",
-						"appicon_win" : "ndi-fccla.ico",
+						"appicon_mac" : "mac.icns",
+						"appicon_win" : "windows.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "com.mycompany.myprogram",
 						"cantclosetoplevelpatchers" : 0,
@@ -2639,7 +2651,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 223.0, 207.0, 234.0, 22.0 ],
+					"patching_rect" : [ 223.0, 220.0, 234.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
@@ -3094,6 +3106,13 @@
 					"destination" : [ "obj-46", 1 ],
 					"order" : 1,
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-150", 0 ]
 				}
 
 			}
@@ -3864,13 +3883,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "chat.js",
-				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/code",
-				"patcherrelativepath" : "../code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "ff.png",
 				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/media",
 				"patcherrelativepath" : "../media",
@@ -3956,8 +3968,8 @@
 			}
 , 			{
 				"name" : "scripthiding_me.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library",
-				"patcherrelativepath" : "../../../Max 8/Library",
+				"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

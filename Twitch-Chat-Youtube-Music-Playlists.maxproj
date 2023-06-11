@@ -2,8 +2,8 @@
 	"name" : "Twitch-Chat-Youtube-Music-Playlists",
 	"version" : 1,
 	"creationdate" : 3769128531,
-	"modificationdate" : 3769297118,
-	"viewrect" : [ 25.0, 119.0, 300.0, 500.0 ],
+	"modificationdate" : 3769298002,
+	"viewrect" : [ 1252.0, 511.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -22,6 +22,11 @@
 			}
 ,
 			"n4m.monitor.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"scripthiding_me.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -119,6 +124,14 @@
 	}
 ,
 	"searchpath" : 	{
+		"0" : 		{
+			"bootpath" : "~/Documents/Programming/Twitch-Chat-Youtube-Music-Playlists/code/node_content",
+			"projectrelativepath" : "./code/node_content",
+			"label" : "",
+			"recursive" : 1,
+			"enabled" : 1,
+			"includeincollective" : 1
+		}
 
 	}
 ,
