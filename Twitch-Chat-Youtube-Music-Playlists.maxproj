@@ -2,7 +2,7 @@
 	"name" : "Twitch-Chat-Youtube-Music-Playlists",
 	"version" : 1,
 	"creationdate" : 3769128531,
-	"modificationdate" : 3769278322,
+	"modificationdate" : 3769297118,
 	"viewrect" : [ 25.0, 119.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -29,27 +29,7 @@
 		}
 ,
 		"media" : 		{
-			"rewind.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"pause.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"play.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
 			"ff.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"rewindDark.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -59,12 +39,32 @@
 				"local" : 1
 			}
 ,
+			"pause.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"pauseDark.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
+			"play.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"playDark.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"rewind.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"rewindDark.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -99,7 +99,16 @@
 
 		}
 ,
-		"externals" : 		{
+		"other" : 		{
+			"mac.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"windows.ico" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
 
 		}
 
